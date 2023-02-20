@@ -49,7 +49,7 @@ jobs:
       with:
         certificate: '${{ secrets.CERTIFICATES }}'
         credentials: '${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}'
-        key-uri: "projects/fpi-codesign/locations/europe-west3/keyRings/code-signing/cryptoKeys/certificate/cryptoKeyVersions/1"
+        key-uri: "projects/ifen-applications/locations/europe-west3/keyRings/ev_demo/cryptoKeys/ev_demo_sign/cryptoKeyVersions/1"
         timestamp-url: 'http://timestamp.comodoca.com'
         description: 'Freenet Installer'
         description-url: 'https://freenetproject.org'
